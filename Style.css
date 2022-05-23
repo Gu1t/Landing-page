@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url(pokemon-landscape.png);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.397);
+}
+
+.cabeçalho-imagem {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-menu-item {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #ffeddf
+}
+
+.conteudo {
+    border-top: 0.4px solid #fff2e7;
+    background: rgba(0, 0, 0, 0.397);
+    padding-bottom: 30px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffe2cb;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Sarala', sansa-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffeddf;
+}
+
+.conteudo-principal-botao {
+    background-color: #ecd6c4;
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sansa-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+    border-radius: 10%;
+    background: rgba(0, 0, 0, 0.397);
+
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(250, 200, 166, 1)
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sansa-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgba(250, 200, 166, 1)
+}
+
+.rodape {
+    padding: 58px;
+    border-top: 0.4px solid #fff2e7;
+    background: rgba(0, 0, 0, 0.397);
+    margin-bottom: 30px;
+}
+
+.rodape-imagem {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
